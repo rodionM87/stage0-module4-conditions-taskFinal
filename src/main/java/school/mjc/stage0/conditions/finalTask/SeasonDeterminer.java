@@ -4,19 +4,19 @@ public class SeasonDeterminer {
     public void tellTheSeason(int monthNumber) {
         switch(monthNumber) {
 	case 12, 1, 2 -> {
-	    Syetsm.out.println("Winter");
+	    System.out.println("Winter");
 	}
 	case 3, 4, 5 -> {
-	    Syetsm.out.println("Spring");
+	    System.out.println("Spring");
 	}
 	case 6, 7, 8 -> {
-	    Syetsm.out.println("Summer");
+	    System.out.println("Summer");
 	}
 	case 9, 10, 11 -> {
-	    Syetsm.out.println("Autumn");
+	    System.out.println("Autumn");
 	}
 	default -> {
-	    Syetsm.out.println("Wrong month number");
+	    System.out.println("Wrong month number");
 	}
 	}
     }
