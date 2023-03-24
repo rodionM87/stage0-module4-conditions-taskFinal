@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class SeasonDeterminer {
     public void tellTheSeason(int monthNumber) {
-        
+        switch(monthNumber) {
 	case 12, 1, 2 -> {
 	    Syetsm.out.println("Winter");
 	}
@@ -17,6 +17,7 @@ public class SeasonDeterminer {
 	}
 	default -> {
 	    Syetsm.out.println("Wrong month number");
+	}
 	}
     }
 }
